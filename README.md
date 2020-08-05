@@ -31,3 +31,8 @@ There is a json file ```FL_nodes.json``` indicates the information (IP, port) fo
 time python3 -m models.UpdateNode --dataset mnist --usr_index <user id> --momentum 0.1 --model CNN2 --loss_type none --lr_drop 0.996 --local_ep 5 --host 128.2.58.126 --port 9000
 ```
 host and port should be configured to match the ```FL_nodes.json``` as above
+
+
+### System Setup
+
+![system diagram](system_.png)
